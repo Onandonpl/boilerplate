@@ -1,0 +1,21 @@
+{
+  "name": "boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/*.html",
+    "deploy": "npm run build && gh-pages -d dist",
+    "branch": "git branch -M main ",
+    "push": "git push -u origin main"
+  },
+  "keywords": [],
+  "author": "Onandon.pl",
+  "license": "MIT",
+  "devDependencies": {
+    "gh-pages": "latest",
+    "parcel-bundler": "latest",
+    "sass": "latest"
+  }
+}
