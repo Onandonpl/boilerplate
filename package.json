@@ -16,6 +16,9 @@
   "devDependencies": {
     "gh-pages": "latest",
     "parcel-bundler": "latest",
+    "@babel/preset-env": "latest",
+    "@babel/core": "latest",
+    "@babel/plugin-transform-runtime": "latest",
     "sass": "latest"
   }
 }
