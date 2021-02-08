@@ -14,11 +14,19 @@
   "author": "Onandon.pl",
   "license": "MIT",
   "devDependencies": {
+    "@babel/core": "^7.12.13",
+    "@babel/plugin-transform-runtime": "^7.12.15",
     "gh-pages": "latest",
     "parcel-bundler": "latest",
-    "@babel/preset-env": "latest",
-    "@babel/core": "latest",
-    "@babel/plugin-transform-runtime": "latest",
-    "sass": "latest"
-  }
+    "sass": "latest",
+    "autoprefixer": "^9.7.6",
+    "postcss-modules": "^1.4.1",
+    "parcel-plugin-clean-dist": "0.0.6"
+  },
+  "browserslist": [
+    "> 1%",
+    "not ie <= 9",
+    "last 3 versions"
+  ]
+
 }
