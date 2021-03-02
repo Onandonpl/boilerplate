@@ -4,11 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel src/index.html",
-    "build": "parcel build src/*.html -d dist --public-url ./",
-    "deploy": "npm run build && gh-pages -d dist",
+    "dev": "parcel src/index.html", 
     "branch": "git branch -M main ",
-    "push": "git push -u origin main"
+    "push": "git push -u origin main",
+    "build": "parcel build src/*.html -d dist --public-url ./",
+    "deploy": "npm run build && gh-pages -d dist"
   },
   "keywords": [],
   "author": "Onandon.pl",
